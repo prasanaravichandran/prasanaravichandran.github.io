@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;   
+}
+
+.intro {
+    height: 700px;
+}
+
+.intro-card-color {
+    background-color: #a8bcd0;
+}
+
+.image-logo {
+    height: 100%;
+    border: 1px solid black;
+}
+
+.intro-card {
+    margin-top: 25%;
+    border: 0;
+}
+
+.hello {
+    font-size: 50px;
+}
+
+.skills {
+    height: 100%;
+    background-color: #d0d6d8;
+    padding: 7%;
+}
+
+.contact {
+    height: 100%;
+    background-color: #8fadbb;
+    padding: 7%;
+}
+
+.work-experience {
+    height: 100%;
+    background-color: #e1edf3;
+    padding: 7%;
+}
+
+.skills .card {
+    margin-left: 5%;
+    background-color: #d0d6d8;
+    border: 0;
+}
+
+.skills .mark {
+    border: 1px solid;
+}
+
+.contact-logos{
+    color: white;
+}
+
+.contact-logos:hover {
+    cursor: pointer;
+    color: lightgray;
+}
+
+.contact .contact-logos {
+    font-size: 5em;
+}
+
+.work-experience .card {
+    border: 1px solid black;
+    border-radius: 4% !important;
+    background-color: #fcffda;
+}
+
+.work-pos b {
+    color: #5c91ab;
+}
+
+
+
+@media (max-width: 570px) {
+    .navbar-brand {
+        padding-bottom : 0%;
+    }
+    .navbar-text {
+        padding-top: 0%;
+    }
+    .intro-card {
+        margin-top: 70%;
+        text-align: center;
+    }
+    .navbar-collapse {
+        background-color: white;
+        padding: 3%;
+        border: 1px solid;
+    }
+    .hello {
+        font-size: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4%;
+    }
+    .contact-logos-card {
+        justify-content: center;
+    }
+    .skills, .contact, .work-experience {
+        padding-top: 35%;
+    }
+    .skills .card {
+        margin-left: 0;
+    }
+    .contact .contact-logos {
+        font-size: 3em;
+    }
+    .work-experience .card-reverse {
+        flex-direction: column-reverse;
+    }
+    .work-pos {
+        justify-content: center !important;
+    }
+    .navbar-toggler-icon {
+        color: black;
+    }
+    .contact-icons {
+        margin: 10% 0 5% 0 !important;
+    }
+} 
