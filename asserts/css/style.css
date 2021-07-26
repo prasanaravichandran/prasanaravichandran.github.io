@@ -15,12 +15,11 @@ body {
 }
 
 .intro-card-color {
-    background-color: #a8bcd0;
+    background-color: cadetblue;
 }
 
 .image-logo {
-    height: 100%;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .intro-card {
@@ -34,17 +33,23 @@ body {
 
 .skills {
     height: 100%;
-    background-color: #d0d6d8;
+    background-color:tan;
     padding: 7%;
 }
 
 .contact {
     height: 100%;
-    background-color: #8fadbb;
+    background-color: steelblue;
     padding: 7%;
 }
 
 .work-experience {
+    height: 100%;
+    background-color: thistle;
+    padding: 7%;
+}
+
+.project {
     height: 100%;
     background-color: #e1edf3;
     padding: 7%;
@@ -52,7 +57,7 @@ body {
 
 .skills .card {
     margin-left: 5%;
-    background-color: #d0d6d8;
+    background-color:tan;
     border: 0;
 }
 
@@ -76,13 +81,25 @@ body {
 .work-experience .card {
     border: 1px solid black;
     border-radius: 4% !important;
-    background-color: #fcffda;
+    /* background-color: #fcffda; */
 }
 
 .work-pos b {
-    color: #5c91ab;
+    color: #0e597d;
 }
 
+.project {
+    background-color: rgb(138, 138, 207);
+}
+
+.project .description {
+    font-size: larger;
+}
+
+.project .links a{
+    text-decoration: underline;
+    color: black;
+}
 
 
 @media (max-width: 570px) {
@@ -110,7 +127,7 @@ body {
     .contact-logos-card {
         justify-content: center;
     }
-    .skills, .contact, .work-experience {
+    .skills, .contact, .work-experience, .project {
         padding-top: 35%;
     }
     .skills .card {
