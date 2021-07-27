@@ -15,7 +15,7 @@ body {
 }
 
 .intro-card-color {
-    background-color: cadetblue;
+    background-color: #99d3d5;
 }
 
 .image-logo {
@@ -33,31 +33,31 @@ body {
 
 .skills {
     height: 100%;
-    background-color:tan;
+    background-color:#f6dcb9;
     padding: 7%;
 }
 
 .contact {
     height: 100%;
-    background-color: steelblue;
+    background-color: #8eacc5;
     padding: 7%;
 }
 
 .work-experience {
     height: 100%;
-    background-color: thistle;
+    background-color: #f6e3f6;
     padding: 7%;
 }
 
 .project {
     height: 100%;
-    background-color: #e1edf3;
+    background-color: #d3d3f0;
     padding: 7%;
 }
 
 .skills .card {
     margin-left: 5%;
-    background-color:tan;
+    background-color:#f6dcb9;
     border: 0;
 }
 
