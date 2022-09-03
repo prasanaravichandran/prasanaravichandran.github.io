@@ -47,7 +47,7 @@ const About = () => {
                                 initial={{ opacity: 0, x: -100 }}
                                 animate={titleControls}
                             >
-                                <span className='aboutText'>Aboutt</span></motion.div>
+                                <span className='aboutText'>About</span></motion.div>
                             </div>
                         </div>
                     </div>
