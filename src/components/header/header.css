@@ -1,0 +1,53 @@
+.header {
+    position: fixed;
+    display: block;
+    background-color: #091930;
+    height: 10%;
+    width: 100vw;
+    padding: 1%;
+    transform: translateY(-100%);
+    transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
+    z-index: 100;
+}
+
+.header .brand span:hover {
+    cursor: pointer;
+}
+
+.header.down{
+    transform: translateY(0);
+}
+
+.header .logo1 {
+    padding: 4px;
+    border: 1px solid;
+    color: white;
+}
+
+.header .logo2 {
+    padding: 4px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-left: 0;
+}
+
+.header .navigation {
+    width: unset;
+}
+
+.header .navigation li a {
+    color: azure;
+    text-decoration: none;
+}
+
+.header .follow a {
+    color: azure;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: none;
+    }
+}

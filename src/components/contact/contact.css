@@ -1,0 +1,64 @@
+.contact {
+    height : 100%;
+    padding: 10%;
+    background-color: #091930;
+    color: white;
+    padding-top: 5%;
+}
+
+.contact .title {
+    font-family: 'Roboto Condensed';
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact .icons a {
+    color: black;
+    font-size: 200%;
+    background-color: azure;
+    margin: 0 20px;
+    padding: 0%;
+    border-radius: 50%;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-top: 1em;
+}
+
+.contact .icons a:hover {
+    color: gray;
+}
+
+.contact .icons a .icon {
+    margin-top: 15px;    
+}
+
+.contact .mail {
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.contact .mailId {
+    border: 1px solid #77ff83;
+    padding: 1%;
+    border-radius: 3%;
+    margin-left: 1%;
+    color: white;
+}
+
+.contact .mailId a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact .mailId a:hover {
+    color: white;
+}
+
+.contact .mailId:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,345 @@
+
+
+.navigation {
+    width : 50%;
+    /* padding: 1.5%; */
+    /* margin-top: 15%; */
+    
+    
+    font-family: inherit;
+}
+
+.navigation ul {
+    /* width : 100%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type:none !important;
+}
+
+.navigation li {
+    height: 100%;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+  position: relative;
+  /* width: fit-content; */
+  /* color: #0087ca; */
+}
+
+.navigation li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    
+}
+
+.navigation li a:hover:after {
+    cursor: pointer;
+    /* text-decoration: underline; */
+    transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.nav-colored { 
+    background-color:#0f0c40; 
+}
+
+.nav-transparent { 
+    background-color:transparent;
+}
+
+.logo {
+    width: 100%;
+    /* position: fixed !important; */
+}
+
+.logo .logo1 {
+    padding: 4px;
+    border: 1px solid;
+}
+
+.logo .logo2 {
+    padding: 4px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-left: 0;
+}
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+
+
+.home {
+    position: relative;
+    height: 100vh;
+    color: white;
+}
+
+.home .container-fluid {
+    height: 100%;
+}
+
+.home .intro {
+    position: absolute;
+    /* background-color: aliceblue; */
+    top: 30%;
+    left: 10%;
+    font-family: Kefa;
+    max-width: 70%;
+}
+
+.logo {
+    position: absolute;
+    color: white;
+    display: flex;
+    top: 10%;
+    left: 10%;
+    text-align: left;
+    padding: 0;
+    font-size: 1em;
+    font-family: Kefa;
+    /* max-width: 70%; */
+}
+
+img {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* background-position: center; */
+    left: 0;
+    filter: brightness(0.5);
+}
+
+.home .greetings {
+    font-size: 4rem;
+}
+
+.home .name {
+    font-size: 4rem;
+}
+
+.home .name span {
+    color: yellowgreen;
+    font-family: Gtwalsheimprotrial;
+    font-weight: 900;
+}
+
+.intro .card {
+    /* padding: 10%; */
+    width: 100%;
+    text-align: left;
+    background-color: unset !important;
+}
+
+.home .image {
+    background-image: url('../../asserts/about_bg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    height: 100%;
+}
+
+.home .Typewriter {
+    font-size: 2rem;
+    font-variant: small-caps;
+    color: lightsteelblue;
+    font-weight: 800;
+}
+
+.home .typewriter {
+    margin-top: 14px;
+}
+
+.home .icons {
+    
+}
+
+.home .icons a {
+    color: white;
+    font-size: 2em;
+    /* background-color: azure; */
+    /* margin: 0 20px; */
+    /* padding: 0%; */
+    /* border-radius: 50%; */
+    /* display: inline-block; */
+    /* width: 60px;
+    height: 60px; */
+    margin-top: 1em;
+}
+
+.home .icons a:hover {
+    color: gray;
+    /* border: 2px solid black; */
+}
+
+.home .icons a .icon {
+    margin-top: 15px;    
+}
+
+.home .linkedIn {
+    margin-left: 0 !important;
+}
+
+.hamburger {
+    display: none;
+    text-align: right;
+    padding: 1%;
+}
+
+.hamburger button {
+    color: white;
+    padding: 0;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+@media (max-width: 460px) {
+    .navigation {
+        visibility: hidden;
+    }
+    
+    .Typewriter {
+        height: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home .image {
+        background-image: url('../../asserts/UQ7A5447-02-01.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        background-size: cover;
+        height: 100%;
+        
+    }
+    
+    .home .intro {
+        position: absolute;
+        /* background-color: aliceblue; */
+        /* top: 20%; */
+        /* left: 10%; */
+        left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+        font-family: Kefa;
+        max-width: 70%;
+    }
+
+    .home .greetings {
+        
+        font-size: 3rem;
+    }
+
+    .navigation {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 10%;
+    }
+    .home .name {
+        font-size: 3rem;
+    }
+
+    .home .Typewriter {
+        font-size: 2em;
+    }
+
+    .card {
+        width: unset;
+        text-align: center;
+    }
+
+    .logo {
+        left: 5%;
+        top: 5%;
+        position: fixed;
+        z-index: 101;
+    }
+
+    .home .icons a {
+        margin-right: 1.10rem!important;
+    }
+}
+
+
+
+.mobile-nav {
+    display: none;
+    width: 65vw;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #a6a7b1;
+    /* left: 0; */
+    z-index: 1000 !important;
+}
+
+.mobile-nav ul {
+    list-style: none;
+    /* height: 100vh; */
+    margin-top: 50px;
+    padding: 2%;
+    text-align: center;
+}
+
+.mobile-nav ul li {
+    margin-top: 15%;
+}
+
+.mobile-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.mobile-nav.active {
+    display: block;
+}
+
+.mobile-nav button {
+    position: absolute;
+    right: 10%;
+    top: 4%;
+}

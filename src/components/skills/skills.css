@@ -1,0 +1,40 @@
+.skills {
+    height : 100%;
+    padding: 10%;
+    background-color: #091930;
+    color: aliceblue;
+}
+
+.skills .title {
+
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    /* text-shadow: 5px 5px #434343; */
+    text-anchor: revert;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.skills .card {
+    border: 1px solid #518e6e;
+    border-top: 5px solid #518e6e;
+    text-align: center;
+    padding: 3%;
+    background-color: unset;
+}
+
+.skills .card .icon {
+    padding: 5%;
+    font-size: xxx-large;
+}
+
+.skills .card .head {
+    font-size: large;
+    font-weight: 900;
+}
+
+.skills .skills-card {
+    height: 90%;
+}

@@ -1,0 +1,137 @@
+.about {
+    height : 100%;
+    padding: 5%;
+    background-color: #091930;
+    color: aliceblue;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.about header h2 {
+    text-align: left;
+}
+
+.about .lazy-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.5em;
+  }
+
+.about .aboutCard {
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.about hr {
+    height: 10px;
+    background-color: #afafff;
+    border-color: #afafff;
+}
+
+.about .title {
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    /* text-shadow: 5px 5px #434343; */
+    text-anchor: revert;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.about .aboutCard .aboutContent {
+    font-size: xx-large;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+.about .aboutCard .contentCard .contactIcons {
+    margin-top: 5%;
+    font-size: x-large;
+    color: whitesmoke !important;
+    width: 70%;
+}
+
+.about .aboutCard .contentCard .contactIcons a {
+    margin-right: 3%;
+}
+
+.about .contactIcons {
+    margin-top: 10% !important;
+    font-size: xx-large;
+}
+
+.about .contactIcons a {
+    margin: 0 6%;
+}
+
+.about .contactIcons a:hover {
+    cursor: pointer;
+    color: unset;
+}
+
+.about .contactIcons .linkedIn {
+    color: #a5afff;
+}
+
+.about .contactIcons .instagram {
+    color: #c300cf;
+}
+
+.about .contactIcons .hackerrank {
+    color: #74bf9c;
+}
+
+.about .contactIcons .github {
+    color: black;
+}
+
+.about .contactIcons-small {
+    visibility: hidden;
+}
+
+.about .aboutText {
+    width: 100%;
+}
+
+.about .personal-skills {
+    padding: 1%;
+    background-color: #74bf9c;
+    color: black;
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.25em;
+    border-left: 5px solid #dc3545;
+}
+
+.about .flexibility {
+    --fa-rotate-angle: 0.25deg;
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}
+
+@media (max-width: 768px) {
+    .about .contactIcons {
+        font-size: x-large;
+    }
+
+    .about .title {
+        margin-bottom: 50%;
+    }
+
+    .about .aboutText {
+        width: 0;
+        display: inline;
+    }
+}

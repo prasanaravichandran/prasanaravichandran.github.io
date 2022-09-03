@@ -1,0 +1,98 @@
+.experience {
+    height : 100%;
+    padding: 10%;
+    background-color: #091930;
+    color: aliceblue;
+}
+
+.experience .title {
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+}
+
+.experience .company-list li {
+    color: lightgray;
+    text-align: end;
+    background-color: #091930;
+    width: 100%;
+    border: none;
+    font-size: larger;
+}
+
+.experience .company-list li:hover {
+    cursor: pointer;
+}
+
+.experience .company-list li.active {
+    color: white;
+}
+
+.experience .cmpy-desc {
+    text-align: start;
+    height: 80vh;
+    overflow: auto;
+}
+
+.experience .cmpy-desc ul {
+    padding-left: 30px;
+}
+
+.experience .cmpy-desc [id] {
+    min-height: 80vh;
+}
+
+.experience .designation {
+    font-size: 1.5rem;
+    color: aquamarine;
+}
+
+.experience .desig-duration {
+    color: lightblue;
+}
+
+.experience .designation ul {
+    font-size: 2rem;
+    list-style: none;
+}
+
+.experience .designation li {
+	position: relative;
+	font-weight: 700;
+	transition: .25s ease-in-out;
+}
+
+.experience .designation li::before {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	left: -.75em;
+	top: 46%;
+	width: .3em;
+	height: .3em;
+	box-sizing: border-box;
+	border-radius: 100%;
+	border: .1em solid hsl(0, 0%, 20%);
+	background-color: hsl(200, 100%, 50%);
+	transition: .125s ease-in-out;
+	box-shadow: 0 0 .1rem .1rem hsla(0, 0%, 50%, .25);
+	animation: pulse 1s 1s infinite linear alternate;
+}
+
+.experience .cmpy-name a{
+    text-decoration: none;
+    color: white;
+}
+
+.experience .cmpy-name a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@keyframes pulse {
+	from {
+		background-color: hsl(200, 100%, 50%);
+	}
+	to {
+		background-color: hsl(200, 0%, 20%);
+	}
+}
