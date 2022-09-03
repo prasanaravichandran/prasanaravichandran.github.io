@@ -12,13 +12,14 @@ function useOnScreen(ref, rootMargin = '0px') {
           rootMargin
         }
       );
-      if (ref.current) {
-        observer.observe(ref.current);
+      let refer = ref.current;
+      if (refer) {
+        observer.observe(refer);
       }
       return () => {
-        observer.unobserve(ref.current);
+        observer.unobserve(refer);
       };
-    }, []);
+    });
   
   return isIntersecting;
 }

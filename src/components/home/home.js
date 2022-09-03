@@ -65,7 +65,7 @@ const Home = () => {
                 <div className='bg-image  img-responsive d-flex justify-content-center align-items-center'>
                     <picture>
                         <source media="(max-width: 768px)" srcset={homeBgMobile}/>
-                        <img src={homeBg}/>
+                        <img src={homeBg} alt=""/>
                     </picture>
                     <div className='logo'>
                         <div className='brand'>
@@ -125,10 +125,10 @@ const Home = () => {
                                 >
                                     <div className="row icons mt-5">
                                         <div className='col-12'>
-                                            <a className='col mx-md-4 linkedIn' href="https://linkedin.com/in/prasana-r-1b9bb8b5" target="_blank"><FontAwesomeIcon className='icon' icon={faLinkedin} /></a>
-                                            <a className='col mx-md-4 instagram' href="https://www.instagram.com/prasana_ravi29/" target="_blank"><FontAwesomeIcon className='icon' icon={faInstagram} /></a>
-                                            <a className='col mx-md-4 hackerrank' href="https://www.hackerrank.com/prasanacoolhear1?hr_r=1" target="_blank"><FontAwesomeIcon className='icon' icon={faHackerrank} /></a>
-                                            <a className='col mx-md-4 github' href="https://github.com/prasanaravichandran" target="_blank"><FontAwesomeIcon icon={faGithub} className='icon'/></a>
+                                            <a className='col mx-md-4 linkedIn' href="https://linkedin.com/in/prasana-r-1b9bb8b5" rel="noreferrer" target="_blank"><FontAwesomeIcon className='icon' icon={faLinkedin} /></a>
+                                            <a className='col mx-md-4 instagram' href="https://www.instagram.com/prasana_ravi29/" rel="noreferrer" target="_blank"><FontAwesomeIcon className='icon' icon={faInstagram} /></a>
+                                            <a className='col mx-md-4 hackerrank' href="https://www.hackerrank.com/prasanacoolhear1?hr_r=1" rel="noreferrer" target="_blank"><FontAwesomeIcon className='icon' icon={faHackerrank} /></a>
+                                            <a className='col mx-md-4 github' href="https://github.com/prasanaravichandran" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} className='icon'/></a>
                                         </div>
                                     </div>
                                 </motion.div>

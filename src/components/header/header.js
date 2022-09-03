@@ -45,10 +45,10 @@ const Header = () => {
                 </div>
                 <div className='col-md-4'>
                     <div className='follow'>
-                        <a className='col mx-md-4 linkedIn' href="https://linkedin.com/in/prasana-r-1b9bb8b5" target="_blank"><FontAwesomeIcon className='icon' icon={faLinkedin} /></a>
-                        <a className='col mx-md-4 instagram' href="https://www.instagram.com/prasana_ravi29/" target="_blank"><FontAwesomeIcon className='icon' icon={faInstagram} /></a>
-                        <a className='col mx-md-4 hackerrank' href="https://www.hackerrank.com/prasanacoolhear1?hr_r=1" target="_blank"><FontAwesomeIcon className='icon' icon={faHackerrank} /></a>
-                        <a className='col mx-md-4 github' href="https://github.com/prasanaravichandran" target="_blank"><FontAwesomeIcon icon={faGithub} className='icon'/></a>
+                        <a className='col mx-md-4 linkedIn' href="https://linkedin.com/in/prasana-r-1b9bb8b5" rel="noreferrer" target="_blank"><FontAwesomeIcon className='icon' icon={faLinkedin} /></a>
+                        <a className='col mx-md-4 instagram' href="https://www.instagram.com/prasana_ravi29/" rel="noreferrer" target="_blank"><FontAwesomeIcon className='icon' icon={faInstagram} /></a>
+                        <a className='col mx-md-4 hackerrank' href="https://www.hackerrank.com/prasanacoolhear1?hr_r=1" rel="noreferrer" target="_blank"><FontAwesomeIcon className='icon' icon={faHackerrank} /></a>
+                        <a className='col mx-md-4 github' href="https://github.com/prasanaravichandran" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} className='icon'/></a>
                     </div>
                 </div>
             </div>

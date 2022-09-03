@@ -59,7 +59,7 @@ const Experience = () => {
                 <div className='col-md-8 pt-2 cmpy-desc'>
                     <div id="lv">
                         <div className='row'>
-                            <div className='cmpy-name display-6'><a href='https://www.latentview.com/' target="_blank">LatentView Analytics</a></div>
+                            <div className='cmpy-name display-6'><a href='https://www.latentview.com/' rel="noreferrer" target="_blank">LatentView Analytics</a></div>
                             <div className='cmpy-duration mt-2'>Aug 2019 - Present</div>
                         </div>
                         <div className='row mt-3'>
@@ -92,7 +92,7 @@ const Experience = () => {
                     </div>
                     <div id="exeter" className='mt-5'>
                         <div className='row'>
-                            <div className='cmpy-name display-6'><a href='https://www.exeterpremedia.com/' target="_blank">Exeter Premedia Services</a></div>
+                            <div className='cmpy-name display-6'><a href='https://www.exeterpremedia.com/' rel="noreferrer" target="_blank">Exeter Premedia Services</a></div>
                             <div className='cmpy-duration mt-2'>Feb 2018 - Jul 2019</div>
                         </div>
                         <div className='row mt-3'>
