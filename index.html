@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of a Creative Developer">
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">PR.dev</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Who I am</a></li>
+                <li><a href="#what-i-do">What I do</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hello, I'm <span class="highlight">Prasana</span></h1>
+                    <p class="hero-subtitle">I am a
+                        <span class="phrase-switcher">
+                            <span class="active">Full-Stack GenAI Engineer</span>
+                            <span>Cloud Solutions Architect</span>
+                            <span>DevOps Engineer</span>
+                        </span>
+                    </p>
+                    <div class="cta-group">
+                        <a href="#experience" class="btn btn-primary">View Experience</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/prasana-r-1b9bb8b5/" target="_blank" rel="noopener"
+                            title="LinkedIn">
+                            <i class="devicon-linkedin-plain"></i>
+                        </a>
+                        <a href="https://github.com/prasanaravichandran" target="_blank" rel="noopener" title="GitHub">
+                            <i class="devicon-github-original"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="llm-showcase" id="llm-showcase">
+                        <div class="llm-card" id="llm-card">
+                            <div class="cert-label">
+                                🏆 Certificate
+                            </div>
+                            <div class="llm-header">
+                                <div class="llm-logo" id="llm-logo">
+                                    <!-- Dynamic Logo -->
+                                </div>
+                                <div class="llm-info">
+                                    <h3 id="llm-name">AWS Solutions Architect</h3>
+                                    <p class="llm-status">Level: <span id="llm-model">Associate</span></p>
+                                </div>
+                            </div>
+                            <p class="llm-description" id="llm-description">The industry leader in frontier LLMs,
+                                providing powerful reasoning and creative capabilities across text, vision, and audio.
+                            </p>
+                            <div class="tool-section">
+                                <h4>Skills Validated</h4>
+                                <div class="tool-grid" id="tool-grid">
+                                    <!-- Dynamic Tool Icons -->
+                                </div>
+                            </div>
+                            <div class="switch-progress">
+                                <div class="progress-bar" id="progress-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Who I am</h2>
+                <div class="about-container">
+                    <div class="about-text">
+                        <div class="about-content">
+                            <p>I'm an engineer focused on building scalable, cloud-native products. I work across the
+                                full
+                                stack, combining software engineering, cloud architecture, and DevOps practices to
+                                design
+                                reliable, high-performance systems. My experience includes system design, AWS
+                                infrastructure,
+                                automation, and implementing Generative AI-driven features, with an emphasis on clean,
+                                maintainable solutions that drive real product outcomes.</p>
+                        </div>
+                        <blockquote class="about-quote">
+                            <p>"Technology and business are becoming inextricably interwoven. I don't think anybody can
+                                talk meaningfully about one without talking about the other."</p>
+                            <cite>— Bill Gates</cite>
+                        </blockquote>
+                    </div>
+                    <div class="about-image-wrapper">
+                        <img src="intro.png?v=3" alt="Prasana" class="about-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="what-i-do" class="section">
+            <div class="container">
+                <h2 class="section-title">What I do</h2>
+                <div class="skills-domains">
+                    <div class="domain-card">
+                        <div class="domain-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                <polyline points="2 17 12 22 22 17"></polyline>
+                                <polyline points="2 12 12 17 22 12"></polyline>
+                            </svg>
+                            <h3>FullStack Engineering</h3>
+                        </div>
+                        <p>Building scalable end-to-end web applications by integrating elegant frontends with powerful
+                            backend microservices for optimal security and seamless performance.</p>
+                        <ul class="domain-pointers">
+                            <li>Frontend & UI/UX Design</li>
+                            <li>Backend & API Development</li>
+                            <li>Database Architecture</li>
+                        </ul>
+                    </div>
+                    <div class="domain-card">
+                        <div class="domain-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z">
+                                </path>
+                                <path
+                                    d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z">
+                                </path>
+                            </svg>
+                            <h3>AI Solutions</h3>
+                        </div>
+                        <p>Designing and deploying cutting-edge generative AI models, LLMs, and RAG pipelines to
+                            automate workflows and create intelligent agents.</p>
+                        <ul class="domain-pointers">
+                            <li>Large Language Models (LLMs)</li>
+                            <li>Retrieval-Augmented Generation (RAG)</li>
+                            <li>Agentic AI Systems</li>
+                        </ul>
+                    </div>
+                    <div class="domain-card">
+                        <div class="domain-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="3"></circle>
+                                <path
+                                    d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                                </path>
+                            </svg>
+                            <h3>Automation</h3>
+                        </div>
+                        <p>Streamlining software delivery through comprehensive CI/CD pipelines, integrating
+                            Infrastructure as Code and containerization for highly reliable, automated scalable
+                            deployments.</p>
+                        <ul class="domain-pointers">
+                            <li>CI/CD Pipelines</li>
+                            <li>Infrastructure as Code (IaC)</li>
+                            <li>Containerization & Orchestration</li>
+                        </ul>
+                    </div>
+                    <div class="domain-card">
+                        <div class="domain-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="16" y="16" width="6" height="6" rx="1" />
+                                <rect x="2" y="16" width="6" height="6" rx="1" />
+                                <rect x="9" y="2" width="6" height="6" rx="1" />
+                                <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+                                <path d="M12 12V8" />
+                            </svg>
+                            <h3>Solutions Architect</h3>
+                        </div>
+                        <p>Designing high-availability cloud architectures, optimizing infrastructure costs, and
+                            ensuring seamless integration of complex technical stacks for scalable products.</p>
+                        <ul class="domain-pointers">
+                            <li>Cloud Infrastructure Design</li>
+                            <li>Scalability & Performance Tuning</li>
+                            <li>Security & Compliance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Tools Inventory</h2>
+                <div class="marquee-wrapper" id="skills-marquee">
+                    <!-- Skills will be populated dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="timeline">
+
+                    <!-- Entry 1 -->
+                    <div class="timeline-item timeline-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-meta">
+                                <span class="timeline-period">04/2024 – Present</span>
+                                <span class="timeline-location">📍 Chennai</span>
+                            </div>
+                            <h3 class="timeline-role">Technical Lead
+                            </h3>
+                            <h4 class="timeline-company">LatentView Analytics</h4>
+                            <ul class="timeline-achievements">
+                                <li>Leading development of a GenAI-enabled database migration platform with monitoring
+                                    and snapshot capabilities, improving data reliability and migration efficiency.</li>
+                                <li>Designed an in-house web scraping framework, eliminating third-party dependencies
+                                    and delivering <strong>90% cost savings</strong> in lead acquisition.</li>
+                                <li>Led frontend development of a self-service SaaS platform using React.js, Vitest, and
+                                    Cypress, reducing project costs by <strong>80%</strong>.</li>
+                                <li>Owned system design discussions, translating business requirements into scalable
+                                    technical architectures.</li>
+                                <li>Collaborate closely with stakeholders on delivery planning, billing workflows, and
+                                    solution governance.</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span>GenAI</span><span>React.js</span><span>Cypress</span><span>System Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Entry 2 -->
+                    <div class="timeline-item timeline-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-meta">
+                                <span class="timeline-period">04/2021 – 03/2024</span>
+                                <span class="timeline-location">📍 Chennai</span>
+                            </div>
+                            <h3 class="timeline-role">Sr. Software Engineer</h3>
+                            <h4 class="timeline-company">LatentView Analytics</h4>
+                            <ul class="timeline-achievements">
+                                <li>Developed a personalized rewards system contributing to <strong>million-dollar
+                                        incremental revenue</strong> for enterprise clients.</li>
+                                <li>Led design and development of an Email Template Builder using Spring Boot, improving
+                                    campaign flexibility and customer engagement.</li>
+                                <li>Managed and mentored engineers while delivering customized solutions using Python,
+                                    Java, AWS, and Git.</li>
+                                <li>Optimized CI/CD pipelines for improved deployment efficiency in an Agile
+                                    environment.</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span>Spring Boot</span><span>Python</span><span>AWS</span><span>CI/CD</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Entry 3 -->
+                    <div class="timeline-item timeline-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-meta">
+                                <span class="timeline-period">08/2019 – 03/2021</span>
+                                <span class="timeline-location">📍 Chennai</span>
+                            </div>
+                            <h3 class="timeline-role">Software Engineer</h3>
+                            <h4 class="timeline-company">LatentView Analytics</h4>
+                            <ul class="timeline-achievements">
+                                <li>Built and maintained Python-based APIs for an e-commerce platform, improving
+                                    delivery speed and scalability.</li>
+                                <li>Implemented ETL workflows leveraging AWS and Azure, supporting large-scale data
+                                    processing.</li>
+                                <li>Automated data pipelines using AWS Glue, AWS Data Pipeline, and Apache Airflow.</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span>Python</span><span>AWS Glue</span><span>Apache Airflow</span><span>Azure</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Entry 4 -->
+                    <div class="timeline-item timeline-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-meta">
+                                <span class="timeline-period">06/2018 – 07/2019</span>
+                                <span class="timeline-location">📍 Chennai</span>
+                            </div>
+                            <h3 class="timeline-role">Software Developer</h3>
+                            <h4 class="timeline-company">Exeter Premedia Services</h4>
+                            <ul class="timeline-achievements">
+                                <li>Developed a dynamic product analytics dashboard using HTML/jQuery and Node.js
+                                    enabling real-time business insights.</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span>HTML</span><span>jQuery</span><span>Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-subtitle">Feel free to reach out via any of the channels below.</p>
+
+                <!-- Contact Cards -->
+                <div class="contact-cards">
+                    <a href="https://www.linkedin.com/in/prasana-r-1b9bb8b5/" target="_blank" class="contact-card"
+                        id="card-linkedin">
+                        <div class="contact-card-icon"
+                            style="background: rgba(0,119,181,0.15); border-color: rgba(0,119,181,0.3);">
+                            <i class="devicon-linkedin-plain" style="color:#0077b5;"></i>
+                        </div>
+                        <h4>LinkedIn</h4>
+                    </a>
+
+                    <a href="https://github.com/prasanaravichandran" target="_blank" class="contact-card"
+                        id="card-github">
+                        <div class="contact-card-icon"
+                            style="background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.15);">
+                            <i class="devicon-github-original" style="color:#ffffff;"></i>
+                        </div>
+                        <h4>GitHub</h4>
+                    </a>
+
+                    <a href="mailto:prasana.2908@gmail.com" class="contact-card" id="card-email">
+                        <div class="contact-card-icon"
+                            style="background: rgba(235,102,121,0.12); border-color: rgba(235,102,121,0.3);">
+                            <i class="fas fa-envelope" style="color:#eb6679;"></i>
+                        </div>
+                        <h4>Email</h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Prasana R. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
