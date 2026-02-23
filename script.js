@@ -77,8 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Active link highlighting (Scroll-Spy)
     const spyObserverOptions = {
-        threshold: 0.2, // Trigger when 20% of section is visible
-        rootMargin: '-20% 0px -40% 0px' // Adjust detection zone
+        threshold: 0.01, // Trigger as soon as any part enters the zone
+        rootMargin: '-10% 0px -50% 0px' // Highlight when section crosses upper third of viewport
     };
 
     const spyObserver = new IntersectionObserver((entries) => {
