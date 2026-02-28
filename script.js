@@ -81,14 +81,20 @@ document.addEventListener('DOMContentLoaded', () => {
         rootMargin: '-10% 0px -50% 0px' // Highlight when section crosses upper third of viewport
     };
 
+    // Map section IDs that have no direct nav link → the nav link to highlight instead
+    const navAliases = {
+        'skills': '#what-i-do'
+    };
+
     const spyObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const id = entry.target.getAttribute('id');
                 if (id) {
+                    const targetHref = navAliases[id] || `#${id}`;
                     document.querySelectorAll('.nav-links a').forEach(link => {
                         link.classList.remove('active');
-                        if (link.getAttribute('href') === `#${id}`) {
+                        if (link.getAttribute('href') === targetHref) {
                             link.classList.add('active');
                         }
                     });
